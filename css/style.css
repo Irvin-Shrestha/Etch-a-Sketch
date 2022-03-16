@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+}
+
+#container > div {
+  -webkit-box-flex: 16;
+      -ms-flex: 16 16 10px;
+          flex: 16 16 10px;
+  border: 1px solid red;
+}
+
+#container > div:hover {
+  border: 1px solid black;
+  background-color: blue;
+}
+
+.my-color-class {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
